@@ -14,10 +14,10 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="115dp"
         android:layout_marginEnd="6dp"
-        android:layout_marginBottom="87dp"
+        android:layout_marginBottom="211dp"
         android:text="@string/department_of_computer_information_sciences_and_mathematics"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnChangeName"
+        app:layout_constraintBottom_toTopOf="@+id/btnCount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,6 +31,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDepartment" />
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="256dp"
+        android:text="Increase Counter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnChangeName"
         app:layout_constraintTop_toBottomOf="@+id/tvDepartment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
